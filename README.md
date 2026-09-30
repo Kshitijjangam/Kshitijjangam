@@ -90,7 +90,7 @@ Data & Automation   PySpark • n8n Workflow Automation
 ### 📬 Connect
 
 - **GitHub**: [@Kshitijjangam](https://github.com/Kshitijjangam)
-- **LinkedIn**: [linkedin.com/in/kshitijjangam](https://linkedin.com) *(Update with your direct vanity URL)*
+- **LinkedIn**: [linkedin.com/in/kshitijjangam](https://linkedin.com) 
 - **Location**: Pune, Maharashtra, India
 
 ---
