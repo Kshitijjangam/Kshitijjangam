@@ -1,101 +1,100 @@
-<div align="center">
+# Kshitij Jangam
 
-  # ⚡ Kshitij Jangam
-  
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student+%7C+Systems+Architect;Full-Stack+Engineer+%7C+Multi-Tenant+SaaS;Architecting+High-Performance+Platforms;Building+Enterprise+ERPs+%26+Clinical+OS;Next.js+14+%E2%80%A2+TypeScript+%E2%80%A2+Docker+%E2%80%A2+Node.js)](https://git.io/typing-svg)
-
-  <p align="center">
-    <strong>Computer Engineering student & Systems Architect building mission-critical platforms, enterprise ERPs, and resilient full-stack systems.</strong>
-  </p>
-
-  <p align="center">
-    <a href="https://github.com/Kshitijjangam"><img src="https://img.shields.io/github/followers/Kshitijjangam?label=Followers&style=flat-square&color=0284c7" alt="Followers"/></a>
-    <a href="https://github.com/Kshitijjangam?tab=repositories"><img src="https://img.shields.io/badge/Architecture-Monorepo%20%26%20SaaS-6366f1?style=flat-square" alt="Architecture"/></a>
-    <a href="https://github.com/Kshitijjangam"><img src="https://img.shields.io/badge/Focus-High--Reliability%20Systems-10b981?style=flat-square" alt="Focus"/></a>
-  </p>
-
-</div>
+**Computer Science Engineer • Software Developer • Builder**  
+📍 Pune, Maharashtra, India &nbsp;|&nbsp; 🎓 B.Tech in Computer Science & Engineering (Final Year)
 
 ---
 
-### 🏛️ Executive Summary
+I build software systems, explore emerging technologies, and engineer practical products. 
 
-I am a **Computer Engineering student** and **Full-Stack Systems Architect** dedicated to designing high-reliability software architectures. My work spans enterprise financial valuation ERPs, multi-tenant healthcare operating systems, and scalable digital platforms:
-
-- 🏗️ **Enterprise & System Architecture**: Proven track record developing end-to-end platforms from legacy modernization (C# / .NET) to modern microservices and monorepos (Next.js 14, TypeScript, Prisma, MongoDB, SQLite).
-- 🛡️ **Defensive Security & Integrity**: Designing systems with strict Role-Based Access Control (RBAC), secondary PIN-gating, Helmet HTTP security hardening, rate limiting, and cryptographic ticket generation.
-- 🏥 **Domain Engineering**: Specialized in building **Multi-Tenant Clinical Operating Systems (EMR)**, automated **Financial Valuation & Bank Appraisal ERPs**, and **E-Learning Platforms (LMS)**.
-- ⚡ **Core Philosophy**: *"Dream Bold. Build Relentlessly. Leave a Legacy."*
+My immediate focus is on building deep software engineering fundamentals — system design, backend architectures, databases, and Linux infrastructure — while developing production-grade applications, AI-driven tools, and automation systems.
 
 ---
 
-### 🚀 Flagship Architectural Projects
+### 🎯 Current Focus & Direction
+
+- **Core Fundamentals**: Data structures, algorithms, object-oriented design (Java, C++), and system design.
+- **Backend Architecture**: Scalable REST APIs, relational and document databases, authentication systems, and microservice workflows.
+- **Infrastructure & Systems**: Linux system administration, server environments, Docker containerization, and networking fundamentals.
+- **Applied AI & Automation**: AI agents, generative AI integrations, computer vision (CNN architectures), and automated workflows with n8n.
+- **Engineering Trajectory**: Moving from building isolated projects to designing, deploying, and maintaining resilient production systems.
+
+---
+
+### 🛠️ Technical Stack
 
 ```text
-D:\PROJECT Workspace Monorepo
-├── 🏢 EXCEL_SOLUTIONS/   ── ValWeb ERP (Enterprise Valuation & Bank Reporting Engine)
-├── 🏥 KJX_ALTIORA/       ── Altiora EMR (Multi-Tenant Hospital OS) & Altiora Labs
-└── 🎓 IPA/               ── Academy Portal & LMS v2 (Production Learning Management)
+Languages           Java • Python • C • C++ • SQL • TypeScript • JavaScript (ES6+)
+Backend & APIs      REST APIs • Node.js / Express • Spring Boot • Backend Architecture
+Databases           PostgreSQL • MySQL • MongoDB • SQLite
+AI & ML             Machine Learning • Computer Vision (CNNs) • Generative AI • AI Agents
+Systems & DevOps    Linux (Administration & Shell) • Docker • Git & GitHub • Server Infrastructure
+Web & Mobile        Next.js 14 • React • Tailwind CSS • Android Development
+Data & Automation   PySpark • n8n Workflow Automation
 ```
 
-#### 1. 🏛️ [KJX Altiora Labs & Clinical OS](https://github.com/Kshitijjangam/KJX_ALTIORA_LABS)
-- **Architecture**: Next.js 14 App Router, TypeScript 5, Prisma ORM, Tailwind CSS, SQLite / PostgreSQL.
-- **Platform Overview**: Bespoke digital platform and engineering laboratory showcase featuring 16 engineering service architectures, technical case studies, dual-pathway client enquiry dispatch with cryptographic ticket generation, and a Mission Control CMS/CRM.
-- **Clinical Suite (`KJX_ALTIORA_EMR`)**: Multi-tenant electronic medical records and clinic operating system featuring role-isolated portals for Super Admins, Clinic Admins, Doctors, and Reception staff.
+---
 
-#### 2. 💼 [Excel Solutions (ValWeb ERP)](https://github.com/Kshitijjangam/excel-solutions)
-- **Architecture**: React (Vite), Node.js, Express, Docker, SQLite, PM2, Helmet, Better-SQLite3.
-- **Overview**: Production-grade property valuation ERP and bank appraisal reporting engine. Built to modernize legacy C# / ASP.NET workflows into a high-speed, Dockerized full-stack platform with automated document generation, live WYSIWYG editing, granular RBAC, and secondary PIN gates for administrative safety.
+### 🚀 Featured Engineering Projects
 
-#### 3. 🎓 [Indian Podiatry Academy (IPA LMS v2)](https://github.com/Kshitijjangam/IPA_LMS_V2)
-- **Architecture**: React (Vite, Tailwind, MUI), Node.js (Express), MongoDB, REST APIs.
-- **Overview**: Enterprise-grade Learning Management System with role-based access for students and faculty, real-time module progress tracking, curriculum delivery, and automated examination infrastructure.
+#### 1. Property Valuation & Report Management Platform (Excel Solutions / ValWeb ERP)
+*Centralized enterprise management platform designed for property valuation records, automated bank appraisal generation, and structured audit workflows.*
+- **System Built**: Modernized a legacy reporting workflow into a containerized full-stack ERP featuring automated PDF generation, live document editing, and a dedicated database for valuation records.
+- **Key Engineering Decisions**: 
+  - Implemented strict Role-Based Access Control (RBAC) with a secondary 4-digit PIN gate for sensitive operations (staff creation, database export).
+  - Hardened with Helmet HTTP security headers, rate limiting (API & auth gates), and parameterized queries to prevent SQL injection.
+- **Stack**: React, Node.js, Express, Docker, SQLite (`better-sqlite3`), PM2, Helmet.
+- **Status**: Production Deployment &bull; [Repository](https://github.com/Kshitijjangam/excel-solutions)
+
+#### 2. Clinical Operating System & Academy Platform (IPA Ecosystem)
+*Integrated technology suite for a medical academy, combining an enterprise Learning Management System with clinical practice management.*
+- **System Built**: Designed an end-to-end LMS for medical practitioners and students featuring modular curriculum tracking, examination scoring, and administrative management. Architected clinical patient record workflows, appointments, and prescription management.
+- **Key Engineering Decisions**: 
+  - Decoupled academy content delivery from user role hierarchies for scalable course progression.
+  - Implemented secure JWT session handling and schema validation for sensitive healthcare datasets.
+- **Stack**: React (MUI, Tailwind CSS), Node.js, Express, MongoDB.
+- **Status**: Active System &bull; [Monorepo Workspace](https://github.com/Kshitijjangam/PROJECT)
+
+#### 3. Bespoke Engineering Platform & Multi-Tenant EMR (KJX Altiora)
+*Digital platform and multi-tenant clinical operating system built under the KJX Altiora technology initiative.*
+- **System Built**: 
+  - **Altiora Labs**: High-performance digital showcase featuring 16 engineering service architectures, cryptographic ticket dispatch for client enquiries, and a dynamic CMS/CRM.
+  - **Altiora EMR**: Multi-tenant electronic medical records operating system with role-segregated portals for Super Admin, Clinic Admin, Doctor, and Receptionist roles.
+- **Key Engineering Decisions**: 
+  - Built with Next.js 14 App Router and TypeScript with strict type checking (zero `any` policy).
+  - Implemented client timing checks and honeypot anti-spam verification on public submission endpoints.
+- **Stack**: Next.js 14, TypeScript 5, Prisma ORM, Tailwind CSS, SQLite / PostgreSQL.
+- **Status**: Active Development &bull; [Repository](https://github.com/Kshitijjangam/KJX_ALTIORA_LABS)
 
 ---
 
-### 🛠️ Technical Arsenal & Tech Stack
+### ⚙️ Engineering Principles
 
-<div align="center">
+- **Pragmatism Over Hype**: Build practical implementations and understand underlying systems before adopting frameworks.
+- **Security-Conscious by Default**: Strict input validation, defense-in-depth, secrets segregation (`.env`), role-based access control, and defensive logging.
+- **Maintainability & Clean Architecture**: Self-documenting code, predictable directory layouts, schema enforcement, and explicit error handling.
+- **Automation**: Streamline repetitive tasks through shell scripting, containerized environments, and orchestration pipelines.
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Languages** | `TypeScript` `JavaScript (ES6+)` `Python` `C# (.NET Core)` `C++` `SQL` `HTML5/CSS3` |
-| **Frontend Frameworks** | `Next.js 14 (App Router)` `React 18` `Vite` `Tailwind CSS` `Material UI` `Lucide Icons` |
-| **Backend & Microservices** | `Node.js` `Express.js` `ASP.NET Core MVC` `Prisma ORM` `Entity Framework` `REST APIs` `JWT Auth` |
-| **Databases & Storage** | `PostgreSQL` `MongoDB` `SQLite` `Better-SQLite3` |
-| **DevOps & Infrastructure** | `Docker` `Docker Compose` `PM2` `Git` `GitHub Actions` `Linux / Bash` `PowerShell` |
-| **Security & Quality** | `Role-Based Access Control (RBAC)` `Helmet.js` `Zod Validation` `Rate Limiting` `PIN Verification` |
+---
 
+### 📊 GitHub Activity
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kshitijjangam&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=7EE787&text_color=C9D1D9" height="150" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kshitijjangam&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="150" alt="Top Languages" />
 </div>
 
 ---
 
-### 📊 Engineering Metrics & GitHub Activity
+### 📬 Connect
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kshitijjangam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=7EE787&text_color=C9D1D9" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kshitijjangam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=Kshitijjangam&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</div>
+- **GitHub**: [@Kshitijjangam](https://github.com/Kshitijjangam)
+- **LinkedIn**: [linkedin.com/in/kshitijjangam](https://linkedin.com) *(Update with your direct vanity URL)*
+- **Location**: Pune, Maharashtra, India
 
 ---
 
-### 🌐 Connect & Collaborate
-
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kshitijjangam)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kshitij.jangam@example.com)
-
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>Engineered with precision by <strong>Kshitij Jangam</strong> &bull; <em>"Engineering the Extraordinary. Dream Bold. Build Relentlessly. Leave a Legacy."</em></sub>
+  <sub>BUILD • LEARN • ENGINEER • EXPERIMENT • DEPLOY • IMPROVE</sub>
 </div>
